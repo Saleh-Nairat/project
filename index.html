@@ -3,29 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./src/output.css">
 </head>
 <body>
 
-    <section class=" w-[90%] container grid gap-[15px] mx-auto sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 text-center">
-        <div>
-            <img src="./imgs/Image (1).png" class="w-full" alt="img">
-            <h3>collection</h3>
+    <header class="container w-[80%] mx-auto flex justify-between py-[18px] z-10">
+
+        <div class="menu max-md:block hidden">
+            <img src="./icons/menu.png" alt="menu-icon">
         </div>
-        <div>
-            <img src="./imgs/Image (1).png" class="w-full" alt="img">
-            <h3>collection</h3>
+
+        <div class="project-name">
+            <h2 class="text-[24px] font-bold">3legant.</h2>
         </div>
-        <div>
-            <img src="./imgs/Image (1).png" class="w-full" alt="img">
-            <h3>collection</h3>
+
+        <div class="list max-md:hidden block">
+            
+            <ul class="flex gap-10">
+
+                <li><a href="#" class="inline-block hover:text-blue-600 transition-all duration-300 hover:scale-[90%]">Home</a></li>
+                <li><a href="#" class="inline-block hover:text-blue-600 transition-all duration-300 hover:scale-[90%]">Shop</a></li>
+                <li><a href="#" class="inline-block hover:text-blue-600 transition-all duration-300 hover:scale-[90%]">Product</a></li>
+                <li><a href="#" class="inline-block hover:text-blue-600 transition-all duration-300 hover:scale-[90%]">Contact Us</a></li>
+                
+            </ul>
+
         </div>
-        <div>
-            <img src="./imgs/Image (1).png" class="w-full" alt="img">
-            <h3 >collection</h3>
+
+        <div class="icons">
+
+            <ul class="flex gap-4">
+
+                <li><a href="#"><img src="./icons/search.png" class="max-md:hidden block" alt="search"></a></li>
+                <li><a href="#"><img src="./icons/Vector.png" class="max-md:hidden block" alt="Vector"></a></li>
+                <li><a href="#"><img src="./icons/shopping bag.png" alt="shopping bag"></a></li>
+
+            </ul>
+
         </div>
-    </section>
+
+    </header>
 
 </body>
 </html>
