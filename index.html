@@ -11,7 +11,7 @@
 </head>
 <body>
 
-    <header class="container w-[85%] mx-auto flex justify-between py-[18px] bg-white z-50 fixed top-0 right-0 left-0">
+    <header class="container flex justify-between py-4.5 bg-white z-50 fixed top-0 right-0 left-0">
 
         <div class="menu max-md:block hidden">
             <img src="./icons/menu.png" alt="menu-icon">
@@ -26,9 +26,9 @@
             <ul class="flex gap-10">
 
                 <li><a href="#" class="inline-block hover:text-blue-600 transition-all duration-300 hover:scale-[90%]">Home</a></li>
-                <li><a href="#" class="inline-block hover:text-blue-600 transition-all duration-300 hover:scale-[90%]">Shop</a></li>
-                <li><a href="#" class="inline-block hover:text-blue-600 transition-all duration-300 hover:scale-[90%]">Product</a></li>
-                <li><a href="#" class="inline-block hover:text-blue-600 transition-all duration-300 hover:scale-[90%]">Contact Us</a></li>
+                <li><a href="#" class="opacity-40 inline-block hover:text-blue-600 transition-all duration-300 hover:scale-[90%]">Shop</a></li>
+                <li><a href="#" class="opacity-40 inline-block hover:text-blue-600 transition-all duration-300 hover:scale-[90%]">Product</a></li>
+                <li><a href="#" class="opacity-40 inline-block hover:text-blue-600 transition-all duration-300 hover:scale-[90%]">Contact Us</a></li>
                 
             </ul>
 
@@ -52,11 +52,40 @@
 
         <section class="hero-section">
 
-            <div class="flex justify-between items-center container w-[85%] mx-auto hero bg-[url(/imgs/hero.png)] h-screen bg-cover bg-no-repeat">
+            <div class="flex justify-between items-center container hero bg-[url(/imgs/hero.png)] h-screen bg-cover bg-no-repeat">
                 <img src="./icons/arraow-left.png" class="hover:opacity-40 transition duration-300"  alt="arraow-left">
                 <img src="./icons/arraow-right.png" class="hover:opacity-40 transition duration-300" alt="arraow-right">
             </div>
             
+        </section>
+
+        <section class="container flex max-md:flex-col justify-between mt-8 mb-10 items-center gap-8">
+            
+            <div class="title max-md:w-full w-[50%] max-md:mb-10 max-md:text-center">
+                <span class="text-black text-[72px] font-medium leading-18 tracking-[-2px] max-md:text-[48px]">Simply Unique</span>
+                <span class="text-black text-[72px] font-medium leading-18 tracking-[-2px] max-md:text-[48px]">Simply Better.</span>
+            </div>
+            
+            <div class="info flex gap-0.5 justify-end max-md:w-full w-[50%] max-md:text-center">
+                <p class="text-gray-500"><span class="text-[16px] font-medium text-black">3legant</span> is a gift & decorations store based in HCMC, Vietnam. Est since 2019. </p>
+            </div>
+
+        </section>
+
+        <section class="container products grid grid-cols-2 gap-6 grid-rows-2 max-sm:grid-cols-1">
+            
+            <div class="product row-span-2">
+                <img src="./imgs/living-room-sofa.png" class="w-full" alt="sofa">
+            </div>
+
+            <div class="product">
+                <img src="./imgs/beedroom-table.png" class="w-full" alt="beedroom-table">
+            </div>
+
+            <div class="product">
+                <img src="./imgs/tostar.png" class="w-full" alt="tostar">
+            </div>
+
         </section>
 
     </main>

@@ -9,3 +9,9 @@
     font-family: var(--font-poppins);
   }
 }
+
+@layer utilities {
+  .container {
+    @apply mx-auto w-[85%];
+  }
+}
