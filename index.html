@@ -15,47 +15,43 @@
 
 <body>
 
-    <header class="container flex justify-between py-4.5 bg-white z-50 fixed top-0 right-0 left-0">
+    <header class="py-4.5 bg-white z-50 fixed top-0 right-0 left-0">
 
-        <div class="menu max-md:block hidden">
-            <img src="./icons/menu.png" alt="menu-icon">
-        </div>
+        <div class="header-section container flex justify-between items-center">
 
-        <div class="project-name">
-            <h2 class="text-[24px] font-bold">3legant.</h2>
-        </div>
+            <div class="menu max-md:block hidden">
+                <img src="./icons/menu.png" alt="menu-icon">
+            </div>
 
-        <div class="list max-md:hidden block">
+            <div class="project-name">
+                <h2 class="text-[24px] font-bold">3legant.</h2>
+            </div>
 
-            <ul class="flex gap-10">
+            <div class="list max-md:hidden block">
 
-                <li><a href="#"
-                        class="inline-block hover:text-blue-600 transition-all duration-300 hover:scale-[90%]">Home</a>
-                </li>
-                <li><a href="#"
-                        class="opacity-40 inline-block hover:text-blue-600 transition-all duration-300 hover:scale-[90%]">Shop</a>
-                </li>
-                <li><a href="#"
-                        class="opacity-40 inline-block hover:text-blue-600 transition-all duration-300 hover:scale-[90%]">Product</a>
-                </li>
-                <li><a href="#"
-                        class="opacity-40 inline-block hover:text-blue-600 transition-all duration-300 hover:scale-[90%]">Contact
-                        Us</a></li>
+                <ul class="flex gap-10">
 
-            </ul>
-
-        </div>
-
-        <div class="icons">
-
-            <ul class="flex gap-4">
-
-                <li><a href="#"><img src="./icons/search.png" class="max-md:hidden block" alt="search"></a></li>
-                <li><a href="#"><img src="./icons/Vector.png" class="max-md:hidden block" alt="Vector"></a></li>
-                <li><a href="#"><img src="./icons/shopping bag.png" alt="shopping bag"></a></li>
-
-            </ul>
-
+                    <li><a href="#"
+                            class="inline-block hover:text-blue-600 transition-all duration-300 hover:scale-[90%]">Home</a>
+                    </li>
+                    <li><a href="#"
+                            class="opacity-40 inline-block hover:text-blue-600 transition-all duration-300 hover:scale-[90%]">Shop</a>
+                    </li>
+                    <li><a href="#"
+                            class="opacity-40 inline-block hover:text-blue-600 transition-all duration-300 hover:scale-[90%]">Product</a>
+                    </li>
+                    <li><a href="#"
+                            class="opacity-40 inline-block hover:text-blue-600 transition-all duration-300 hover:scale-[90%]">Contact
+                            Us</a></li>
+                </ul>
+            </div>
+            <div class="icons">
+                <ul class="flex gap-4">
+                    <li><a href="#"><img src="./icons/search.png" class="max-md:hidden block" alt="search"></a></li>
+                    <li><a href="#"><img src="./icons/Vector.png" class="max-md:hidden block" alt="Vector"></a></li>
+                    <li><a href="#"><img src="./icons/shopping bag.png" alt="shopping bag"></a></li>
+                </ul>
+            </div>
         </div>
 
     </header>
@@ -362,23 +358,38 @@
 
     </main>
 
-    <footer class="footer bg-[#141718] text-white py-20">
+    <footer class="footer bg-[#141718] text-white py-12 pb-18 md:pb-13 md:pt-20">
 
         <section class="footer-section container">
 
-            <div class="first-line grid grid-cols-2 gap-[35%]">
-                <div class="logo flex">
+            <div class="first-line flex justify-center items-center lg:justify-between flex-col lg:flex-row max-lg:gap-10">
+                <div class="logo flex flex-col md:flex-row justify-center items-center">
                     <h2 class="text-[#FFFFFF] text-[24px] leading-6 font-medium">3legant<span class="">.</span></h2>
-                    <div class="wall h-6 border-r border-[#6C7275] pl-8 mr-8"></div>
+                    <div class="wall w-6 h-6 border-b md:border-b-0 md:border-r border-[#6C7275] pt-4 mb-4 md:pl-8 md:mr-8"></div>
                     <p class="text-[#E8ECEF] text-[14px] leading-5.5 opacity-80">Gift & Decoration Store</p>
                 </div>
                 <div class="pages">
-                    <ul class="flex gap-10">
-                        <li class="text-[#FEFEF] text-[14px] leading-5.5 opacity-90 hover:text-blue-500 transition-all duration-300"><a href="#">Home</a></li>
-                        <li class="text-[#FEFEF] text-[14px] leading-5.5 opacity-90 hover:text-blue-500 transition-all duration-300"><a href="#">Shop</a></li>
-                        <li class="text-[#FEFEF] text-[14px] leading-5.5 opacity-90 hover:text-blue-500 transition-all duration-300"><a href="#">Product</a></li>
-                        <li class="text-[#FEFEF] text-[14px] leading-5.5 opacity-90 hover:text-blue-500 transition-all duration-300"><a href="#">Blog</a></li>
-                        <li class="text-[#FEFEF] text-[14px] leading-5.5 opacity-90 hover:text-blue-500 transition-all duration-300"><a href="#">Contact Us</a></li>
+                    <ul class="flex gap-8 md:gap-10 flex-col md:flex-row justify-center items-center">
+                        <li
+                            class="text-[#FEFEF] text-[14px] leading-5.5 opacity-90 hover:text-blue-500 transition-all duration-300">
+                            <a href="#">Home</a>
+                        </li>
+                        <li
+                            class="text-[#FEFEF] text-[14px] leading-5.5 opacity-90 hover:text-blue-500 transition-all duration-300">
+                            <a href="#">Shop</a>
+                        </li>
+                        <li
+                            class="text-[#FEFEF] text-[14px] leading-5.5 opacity-90 hover:text-blue-500 transition-all duration-300">
+                            <a href="#">Product</a>
+                        </li>
+                        <li
+                            class="text-[#FEFEF] text-[14px] leading-5.5 opacity-90 hover:text-blue-500 transition-all duration-300">
+                            <a href="#">Blog</a>
+                        </li>
+                        <li
+                            class="text-[#FEFEF] text-[14px] leading-5.5 opacity-90 hover:text-blue-500 transition-all duration-300">
+                            <a href="#">Contact Us</a>
+                        </li>
                     </ul>
                 </div>
             </div>
