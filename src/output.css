@@ -427,11 +427,35 @@
   .bg-white {
     background-color: var(--color-white);
   }
+  .bg-\[url\(\"\.\/imgs\/hero\.png\"\)\] {
+    background-image: url("./imgs/hero.png");
+  }
+  .bg-\[url\(\'\.\.\/imgs\/Newsletter-home-page\.png\'\)\] {
+    background-image: url('../imgs/Newsletter-home-page.png');
+  }
+  .bg-\[url\(\'\.\.\/imgs\/hero\.png\'\)\] {
+    background-image: url('../imgs/hero.png');
+  }
+  .bg-\[url\(\'\.\/imgs\/hero\.png\'\)\] {
+    background-image: url('./imgs/hero.png');
+  }
+  .bg-\[url\(\'\/imgs\/hero\.png\'\)\] {
+    background-image: url('/imgs/hero.png');
+  }
+  .bg-\[url\(\'imgs\/hero\.png\'\)\] {
+    background-image: url('imgs/hero.png');
+  }
+  .bg-\[url\(\.\/imgs\/hero\.png\)\] {
+    background-image: url(./imgs/hero.png);
+  }
   .bg-\[url\(\/imgs\/Newsletter-home-page\.png\)\] {
     background-image: url(/imgs/Newsletter-home-page.png);
   }
   .bg-\[url\(\/imgs\/hero\.png\)\] {
     background-image: url(/imgs/hero.png);
+  }
+  .bg-\[url\(imgs\/hero\.png\)\] {
+    background-image: url(imgs/hero.png);
   }
   .bg-cover {
     background-size: cover;
@@ -499,9 +523,6 @@
   .pb-4 {
     padding-bottom: calc(var(--spacing) * 4);
   }
-  .pb-6 {
-    padding-bottom: calc(var(--spacing) * 6);
-  }
   .pb-13 {
     padding-bottom: calc(var(--spacing) * 13);
   }
@@ -513,9 +534,6 @@
   }
   .text-center {
     text-align: center;
-  }
-  .text-\[1px\] {
-    font-size: 1px;
   }
   .text-\[10px\] {
     font-size: 10px;
@@ -550,14 +568,6 @@
   .text-\[72px\] {
     font-size: 72px;
   }
-  .leading-1 {
-    --tw-leading: var(--spacing);
-    line-height: var(--spacing);
-  }
-  .leading-1\.5 {
-    --tw-leading: calc(var(--spacing) * 1.5);
-    line-height: calc(var(--spacing) * 1.5);
-  }
   .leading-2 {
     --tw-leading: calc(var(--spacing) * 2);
     line-height: calc(var(--spacing) * 2);
@@ -565,10 +575,6 @@
   .leading-3 {
     --tw-leading: calc(var(--spacing) * 3);
     line-height: calc(var(--spacing) * 3);
-  }
-  .leading-3\.5 {
-    --tw-leading: calc(var(--spacing) * 3.5);
-    line-height: calc(var(--spacing) * 3.5);
   }
   .leading-3\.75 {
     --tw-leading: calc(var(--spacing) * 3.75);
@@ -732,9 +738,6 @@
     }
   }
   @media (width < 400px) {
-    .max-xs\:text-\[24px\] {
-      font-size: 24px;
-    }
     .max-xs\:text-\[28px\] {
       font-size: 28px;
     }
