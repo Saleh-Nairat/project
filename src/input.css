@@ -18,3 +18,9 @@
     @apply mx-auto w-[85%];
   }
 }
+
+@keyframes scroll {
+  to {
+    transform: translateX(-50%);
+  }
+}
