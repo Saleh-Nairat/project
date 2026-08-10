@@ -4,7 +4,8 @@
   --font-poppins: "Poppins", sans-serif;
   --breakpoint-xs: 400px;
   --breakpoint-xmd: 920px;
-  --breakpoint-smd: 850px;
+  --breakpoint-lmd: 850px;
+  
 }
 
 @layer base {
