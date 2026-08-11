@@ -2,6 +2,7 @@
 
 @theme {
   --font-poppins: "Poppins", sans-serif;
+  --breakpoint-xxs: 350px;
   --breakpoint-xs: 400px;
   --breakpoint-smd:801px;
   --breakpoint-lmd: 850px;
