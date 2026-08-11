@@ -665,9 +665,33 @@
     --tw-leading: calc(var(--spacing) * 18);
     line-height: calc(var(--spacing) * 18);
   }
+  .font-\[5\] {
+    --tw-font-weight: 5;
+    font-weight: 5;
+  }
   .font-\[450\] {
     --tw-font-weight: 450;
     font-weight: 450;
+  }
+  .font-\[520\] {
+    --tw-font-weight: 520;
+    font-weight: 520;
+  }
+  .font-\[530\] {
+    --tw-font-weight: 530;
+    font-weight: 530;
+  }
+  .font-\[540\] {
+    --tw-font-weight: 540;
+    font-weight: 540;
+  }
+  .font-\[550\] {
+    --tw-font-weight: 550;
+    font-weight: 550;
+  }
+  .font-\[600\] {
+    --tw-font-weight: 600;
+    font-weight: 600;
   }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
@@ -691,6 +715,9 @@
   }
   .whitespace-nowrap {
     white-space: nowrap;
+  }
+  .text-\[\#000000\] {
+    color: #000000;
   }
   .text-\[\#6C7275\] {
     color: #6C7275;
@@ -721,6 +748,12 @@
   }
   .text-black {
     color: var(--color-black);
+  }
+  .text-black\/900 {
+    color: color-mix(in srgb, #000 900%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      color: color-mix(in oklab, var(--color-black) 900%, transparent);
+    }
   }
   .text-gray-500 {
     color: var(--color-gray-500);
@@ -949,6 +982,9 @@
     .max-sm\:grid-cols-1 {
       grid-template-columns: repeat(1, minmax(0, 1fr));
     }
+    .max-sm\:text-center {
+      text-align: center;
+    }
   }
   @media (width >= 350px) {
     .xxs\:text-\[30px\] {
@@ -1158,12 +1194,23 @@
     .lg\:text-\[30px\] {
       font-size: 30px;
     }
+    .lg\:text-\[34px\] {
+      font-size: 34px;
+    }
     .lg\:text-\[80px\] {
       font-size: 80px;
+    }
+    .lg\:leading-7 {
+      --tw-leading: calc(var(--spacing) * 7);
+      line-height: calc(var(--spacing) * 7);
     }
     .lg\:leading-8 {
       --tw-leading: calc(var(--spacing) * 8);
       line-height: calc(var(--spacing) * 8);
+    }
+    .lg\:leading-9 {
+      --tw-leading: calc(var(--spacing) * 9);
+      line-height: calc(var(--spacing) * 9);
     }
     .lg\:leading-21 {
       --tw-leading: calc(var(--spacing) * 21);
