@@ -15,6 +15,8 @@
     --color-black: #000;
     --color-white: #fff;
     --spacing: 0.25rem;
+    --text-2xl: 1.5rem;
+    --text-2xl--line-height: calc(2 / 1.5);
     --font-weight-medium: 500;
     --font-weight-semibold: 600;
     --font-weight-bold: 700;
@@ -331,6 +333,21 @@
   }
   .w-6 {
     width: calc(var(--spacing) * 6);
+  }
+  .w-\[1\%\] {
+    width: 1%;
+  }
+  .w-\[2\%\] {
+    width: 2%;
+  }
+  .w-\[5\%\] {
+    width: 5%;
+  }
+  .w-\[5\] {
+    width: 5;
+  }
+  .w-\[20\%\] {
+    width: 20%;
   }
   .w-\[50\%\] {
     width: 50%;
@@ -1007,6 +1024,51 @@
     }
   }
   @media (width >= 768px) {
+    @media (width < 1001px) {
+      .min-\[768px\]\:max-\[1001px\]\:top-0 {
+        top: 0px;
+      }
+      .min-\[768px\]\:max-\[1001px\]\:top-2\.5 {
+        top: calc(var(--spacing) * 2.5);
+      }
+      .min-\[768px\]\:max-\[1001px\]\:top-\[1\%\] {
+        top: 1%;
+      }
+      .min-\[768px\]\:max-\[1001px\]\:top-\[2\%\] {
+        top: 2%;
+      }
+      .min-\[768px\]\:max-\[1001px\]\:top-\[2\.5\%\] {
+        top: 2.5%;
+      }
+      .min-\[768px\]\:max-\[1001px\]\:left-\[1\%\] {
+        left: 1%;
+      }
+      .min-\[768px\]\:max-\[1001px\]\:left-\[2\%\] {
+        left: 2%;
+      }
+      .min-\[768px\]\:max-\[1001px\]\:left-\[2\.5\%\] {
+        left: 2.5%;
+      }
+      .min-\[768px\]\:max-\[1001px\]\:px-0 {
+        padding-inline: 0px;
+      }
+      .min-\[768px\]\:max-\[1001px\]\:px-2 {
+        padding-inline: calc(var(--spacing) * 2);
+      }
+      .min-\[768px\]\:max-\[1001px\]\:px-2\.5 {
+        padding-inline: calc(var(--spacing) * 2.5);
+      }
+      .min-\[768px\]\:max-\[1001px\]\:py-2\.5 {
+        padding-block: calc(var(--spacing) * 2.5);
+      }
+      .min-\[768px\]\:max-\[1001px\]\:py-px {
+        padding-block: 1px;
+      }
+      .min-\[768px\]\:max-\[1001px\]\:text-2xl {
+        font-size: var(--text-2xl);
+        line-height: var(--tw-leading, var(--text-2xl--line-height));
+      }
+    }
     @media (width < 801px) {
       .min-\[768px\]\:max-\[801px\]\:text-\[40px\] {
         font-size: 40px;
@@ -1053,6 +1115,9 @@
     }
     .sm\:w-\[65\%\] {
       width: 65%;
+    }
+    .sm\:grid-cols-1 {
+      grid-template-columns: repeat(1, minmax(0, 1fr));
     }
     .sm\:grid-cols-2 {
       grid-template-columns: repeat(2, minmax(0, 1fr));
