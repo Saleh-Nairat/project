@@ -8,6 +8,7 @@
       "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-red-600: oklch(57.7% 0.245 27.325);
     --color-blue-500: oklch(62.3% 0.214 259.815);
     --color-blue-600: oklch(54.6% 0.245 262.881);
     --color-gray-500: oklch(55.1% 0.027 264.364);
@@ -19,6 +20,8 @@
     --font-weight-bold: 700;
     --radius-sm: 0.25rem;
     --radius-lg: 0.5rem;
+    --radius-xl: 0.75rem;
+    --radius-2xl: 1rem;
     --default-transition-duration: 150ms;
     --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     --default-font-family: var(--font-sans);
@@ -313,6 +316,9 @@
   .h-6 {
     height: calc(var(--spacing) * 6);
   }
+  .h-10 {
+    height: calc(var(--spacing) * 10);
+  }
   .h-20 {
     height: calc(var(--spacing) * 20);
   }
@@ -334,23 +340,14 @@
   .w-6 {
     width: calc(var(--spacing) * 6);
   }
-  .w-\[8\] {
-    width: 8;
+  .w-10 {
+    width: calc(var(--spacing) * 10);
   }
   .w-\[50\%\] {
     width: 50%;
   }
-  .w-\[70\%\] {
-    width: 70%;
-  }
   .w-\[75\%\] {
     width: 75%;
-  }
-  .w-\[80\%\] {
-    width: 80%;
-  }
-  .w-\[80\/5\] {
-    width: 80/5;
   }
   .w-\[85\%\] {
     width: 85%;
@@ -360,9 +357,6 @@
   }
   .w-\[90\%\] {
     width: 90%;
-  }
-  .w-\[100\%\] {
-    width: 100%;
   }
   .w-fit {
     width: fit-content;
@@ -460,11 +454,20 @@
   .overflow-hidden {
     overflow: hidden;
   }
+  .rounded-2xl {
+    border-radius: var(--radius-2xl);
+  }
+  .rounded-full {
+    border-radius: calc(infinity * 1px);
+  }
   .rounded-lg {
     border-radius: var(--radius-lg);
   }
   .rounded-sm {
     border-radius: var(--radius-sm);
+  }
+  .rounded-xl {
+    border-radius: var(--radius-xl);
   }
   .border {
     border-style: var(--tw-border-style);
@@ -499,6 +502,9 @@
   .bg-black {
     background-color: var(--color-black);
   }
+  .bg-red-600 {
+    background-color: var(--color-red-600);
+  }
   .bg-white {
     background-color: var(--color-white);
   }
@@ -516,6 +522,15 @@
   }
   .bg-no-repeat {
     background-repeat: no-repeat;
+  }
+  .p-2 {
+    padding: calc(var(--spacing) * 2);
+  }
+  .p-10 {
+    padding: calc(var(--spacing) * 10);
+  }
+  .p-px {
+    padding: 1px;
   }
   .px-3 {
     padding-inline: calc(var(--spacing) * 3);
@@ -612,9 +627,6 @@
   }
   .text-\[14px\] {
     font-size: 14px;
-  }
-  .text-\[15px\] {
-    font-size: 15px;
   }
   .text-\[16px\] {
     font-size: 16px;
@@ -826,26 +838,11 @@
       --tw-scale-z: 97%;
       scale: var(--tw-scale-x) var(--tw-scale-y);
     }
-    .hover\:scale-\[-10\%\]:hover {
-      scale: -10%;
-    }
-    .hover\:scale-\[0\.90\%\]:hover {
-      scale: 0.90%;
-    }
-    .hover\:scale-\[0\.\]:hover {
-      scale: 0.;
-    }
     .hover\:scale-\[90\%\]:hover {
       scale: 90%;
     }
     .hover\:scale-\[105\%\]:hover {
       scale: 105%;
-    }
-    .hover\:scale-\[110\%\]:hover {
-      scale: 110%;
-    }
-    .hover\:scale-\[120\%\]:hover {
-      scale: 120%;
     }
     .hover\:bg-\[\#0866ff\]:hover {
       background-color: #0866ff;
