@@ -530,6 +530,15 @@
   .bg-\[url\(\'\.\.\/imgs\/hero\.png\'\)\] {
     background-image: url('../imgs/hero.png');
   }
+  .bg-\[url\(\'\.\.\/imgs\/shop-home-page\.png\'\)\] {
+    background-image: url('../imgs/shop-home-page.png');
+  }
+  .bg-\[url\(\'\.\.\/imgs\/shop-page-footer\.png\'\)\] {
+    background-image: url('../imgs/shop-page-footer.png');
+  }
+  .bg-\[url\(\'\.\.\/imgs\/shop-page\.png\'\)\] {
+    background-image: url('../imgs/shop-page.png');
+  }
   .bg-cover {
     background-size: cover;
   }
