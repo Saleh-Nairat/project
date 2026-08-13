@@ -17,6 +17,7 @@
     --font-weight-medium: 500;
     --font-weight-semibold: 600;
     --font-weight-bold: 700;
+    --font-weight-black: 900;
     --radius-sm: 0.25rem;
     --radius-lg: 0.5rem;
     --default-transition-duration: 150ms;
@@ -409,6 +410,9 @@
   .grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+  .grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
   .grid-rows-2 {
     grid-template-rows: repeat(2, minmax(0, 1fr));
   }
@@ -604,6 +608,9 @@
   .pt-6 {
     padding-top: calc(var(--spacing) * 6);
   }
+  .pt-10 {
+    padding-top: calc(var(--spacing) * 10);
+  }
   .pt-12 {
     padding-top: calc(var(--spacing) * 12);
   }
@@ -621,6 +628,9 @@
   }
   .pt-32 {
     padding-top: calc(var(--spacing) * 32);
+  }
+  .pt-40 {
+    padding-top: calc(var(--spacing) * 40);
   }
   .pb-1 {
     padding-bottom: var(--spacing);
@@ -751,6 +761,10 @@
     --tw-font-weight: 550;
     font-weight: 550;
   }
+  .font-black {
+    --tw-font-weight: var(--font-weight-black);
+    font-weight: var(--font-weight-black);
+  }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
@@ -819,6 +833,9 @@
   .text-white {
     color: var(--color-white);
   }
+  .uppercase {
+    text-transform: uppercase;
+  }
   .line-through {
     text-decoration-line: line-through;
   }
@@ -869,6 +886,12 @@
     transition-duration: 450ms;
   }
   @media (hover: hover) {
+    .group-hover\:scale-110:is(:where(.group):hover *) {
+      --tw-scale-x: 110%;
+      --tw-scale-y: 110%;
+      --tw-scale-z: 110%;
+      scale: var(--tw-scale-x) var(--tw-scale-y);
+    }
     .group-hover\:opacity-60:is(:where(.group):hover *) {
       opacity: 60%;
     }
@@ -918,6 +941,9 @@
     }
     .max-xs\:w-\[75\%\] {
       width: 75%;
+    }
+    .max-xs\:text-center {
+      text-align: center;
     }
     .max-xs\:text-\[28px\] {
       font-size: 28px;
@@ -986,6 +1012,9 @@
     }
   }
   @media (width < 40rem) {
+    .max-sm\:flex {
+      display: flex;
+    }
     .max-sm\:hidden {
       display: none;
     }
@@ -1014,6 +1043,9 @@
     .xs\:w-15 {
       width: calc(var(--spacing) * 15);
     }
+    .xs\:grid-cols-2 {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
     .xs\:gap-4 {
       gap: calc(var(--spacing) * 4);
     }
@@ -1025,6 +1057,9 @@
     }
     .xs\:text-\[12px\] {
       font-size: 12px;
+    }
+    .xs\:text-\[14px\] {
+      font-size: 14px;
     }
     .xs\:text-\[16px\] {
       font-size: 16px;
@@ -1123,6 +1158,9 @@
     .sm\:grid-cols-2 {
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
+    .sm\:grid-cols-4 {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
     .sm\:py-4 {
       padding-block: calc(var(--spacing) * 4);
     }
@@ -1165,6 +1203,10 @@
       --tw-leading: calc(var(--spacing) * 6);
       line-height: calc(var(--spacing) * 6);
     }
+    .sm\:leading-8 {
+      --tw-leading: calc(var(--spacing) * 8);
+      line-height: calc(var(--spacing) * 8);
+    }
     .sm\:leading-11 {
       --tw-leading: calc(var(--spacing) * 11);
       line-height: calc(var(--spacing) * 11);
@@ -1197,6 +1239,9 @@
     }
     .md\:grid-cols-3 {
       grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    .md\:grid-cols-4 {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
     }
     .md\:flex-row {
       flex-direction: row;
