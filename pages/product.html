@@ -56,36 +56,36 @@
         <section class="product-sectoin container">
 
             <div class="product-section-header py-4">
-                <ul class="flex gap-4">
+                <ul class="flex min-[0px]:max-[344px]:gap-2.5 gap-4">
                     <li><a href="../index.html"
-                            class="flex gap-1 items-center text-[#605F5F] text-[14px] leading-6 opacity-90 hover:text-blue-500 cursor-pointer transition-all duration-300">Home<span><img
+                            class="flex gap-1 items-center text-[#605F5F] text-[12.5px] xs:text-[14px] leading-6 opacity-90 hover:text-blue-500 cursor-pointer transition-all duration-300">Home<span><img
                                     src="../icons/product-chevron-right.svg" alt="arraow-right"></span></a></li>
                     <li><a href="./shop.html"
-                            class="flex gap-1 items-center text-[#605F5F] text-[14px] leading-6 opacity-90 hover:text-blue-500 cursor-pointer transition-all duration-300">Shop<span><img
+                            class="flex gap-1 items-center text-[#605F5F] text-[12.5px] xs:text-[14px] leading-6 opacity-90 hover:text-blue-500 cursor-pointer transition-all duration-300">Shop<span><img
                                     src="../icons/product-chevron-right.svg" alt="arraow-right"></span></a></li>
                     <li><a href="#"
-                            class="flex gap-1 items-center text-[#605F5F] text-[14px] leading-6 opacity-90 hover:text-blue-500 cursor-pointer transition-all duration-300">Living
+                            class="flex gap-1 items-center text-[#605F5F] text-[12.5px] xs:text-[14px] leading-6 opacity-90 hover:text-blue-500 cursor-pointer transition-all duration-300">Living
                             Room<span><img src="../icons/product-chevron-right.svg" alt="arraow-right"></span></a></li>
                     <li><a href="#"
-                            class="flex items-center text-black/900 text-[14px] leading-6 hover:text-blue-500 cursor-pointer transition-all duration-300">Product</a>
+                            class="flex items-center text-black/900 text-[12.5px] xs:text-[14px] leading-6 hover:text-blue-500 cursor-pointer transition-all duration-300">Product</a>
                     </li>
                 </ul>
             </div>
-            <div class="product-details-and-imgs grid grid-cols-1 md:grid-cols-2 gap-15.75">
-                <div class="product-imgs">
+            <div class="product-details-and-imgs grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-15.75">
+                <div class="product-imgs relative grid grid-rows-[1fr_auto]">
                     <div class="main-img">
-                        <div class="product-tag flex flex-col gap-1.5 absolute top-[18%] left-[9%]">
-                            <span class="bg-white px-3.5 py-0.5 rounded-sm text-[16px] font-semibold">NEW</span>
+                        <div class="product-tag flex flex-col gap-1.5 absolute top-[1.5%] xs:top-[2%] left-[2%] xs:left-[3%]">
+                            <span class="bg-white px-3 xs:px-3.5 py-0.5 rounded-sm text-[12px] xs:text-[16px] font-semibold">NEW</span>
                             <span
-                                class="bg-[#38CB89] text-white px-3.5 py-0.5 rounded-sm text-[16px] font-medium">-50%</span>
+                                class="bg-[#38CB89] text-white px-3 xs:px-3.5 py-0.5 rounded-sm text-[12px] xs:text-[16px] font-medium">-50%</span>
                         </div>
-                        <img src="../imgs/product-main-img.png" class="md:pb-6 w-full" alt="placeholder table">
+                        <img src="../imgs/product-main-img.png" class="md:pb-6 w-full h-full" alt="placeholder table">
                     </div>
 
-                    <div class="sub-imgs flex gap-6">
-                        <img src="../imgs/product-Image-Placeholder1.png" alt="product-Image-Placeholder1" class="xl:w-full hidden md:flex">
-                        <img src="../imgs/product-Image-Placeholder2.png" alt="product-Image-Placeholder1" class="w-[clac(100%-48px)] xl:w-full hidden md:flex">
-                        <img src="../imgs/product-Image-Placeholder3.png" alt="product-Image-Placeholder1" class="xl:w-full hidden xl:flex">
+                    <div class="sub-imgs grid grid-cols-[1fr_1fr_1fr] gap-6 max-md:pt-6">
+                        <img src="../imgs/product-Image-Placeholder1.png" alt="product-Image-Placeholder1" class="w-full h-full">
+                        <img src="../imgs/product-Image-Placeholder2.png" alt="product-Image-Placeholder1" class="w-full h-full">
+                        <img src="../imgs/product-Image-Placeholder3.png" alt="product-Image-Placeholder1" class="w-full h-full">
                     </div>
                 </div>
                 <div class="product-details pt-6">
@@ -140,24 +140,24 @@
                         <img src="../icons/product-chevron-right.svg" alt="arrow-right-small" class="w-[3%]">
                     </div>
                     <h3 class="text-[#000000] text-[20px] leading-8 pt-2.5 pb-4.5">Black</h3>
-                    <div class="product-colors flex gap-5 pb-6">
+                    <div class="product-colors grid grid-cols-3 xs:grid-cols-4 gap-5 pb-6">
                         <img src="../imgs/product-color1.png" alt="black placeholder table" class="cursor-pointer">
                         <img src="../imgs/product-color2.png" alt="gray placeholder table" class="cursor-pointer">
                         <img src="../imgs/product-color3.png" alt="red placeholder table" class="cursor-pointer">
                         <img src="../imgs/product-color4.png" alt="white placeholder table" class="cursor-pointer">
                     </div>
                     <div class="buy-product flex gap-[4%] pt-8">
-                        <div class="number-of-product flex gap-[20%] justify-center items-center bg-[#F5F5F5] w-[20.75%] py-4 rounded-lg">
+                        <div class="number-of-product flex gap-[18.5%] justify-center items-center bg-[#F5F5F5] w-[20.75%] py-4 rounded-lg">
                             <button class="cursor-pointer"><img src="../icons/Minus.svg" alt="minus"></button>
                             <span class="text-[#121212] text-[16px] leading-6 font-semibold">1</span>
                             <button class="cursor-pointer"><img src="../icons/Add.svg" alt="add"></button>
                         </div>
-                        <div class="add-product-to-cart flex gap-2 justify-center items-center rounded-lg border px-[22.2%] py-3 group cursor-pointer hover:bg-gray-500 transition-all duration-300">
+                        <div class="add-product-to-cart flex gap-2 justify-center items-center rounded-lg border w-full py-2 group cursor-pointer hover:bg-gray-500 transition-all duration-300">
                             <img src="../icons/product-heart.svg" alt="heart">
                             <button class="text-[#141718] text-[18px] leading-8 font-medium group-hover:text-white transition-all duration-300 cursor-pointer">Wishlist</button>
                         </div>
                     </div>
-                    <button class="add-to-cart text-[#FFFFFF] text-[18px] leading-8 font-medium bg-[#141718] px-[35%] py-3 rounded-lg mt-4 cursor-pointer hover:opacity-70 transition-all duration-300 whitespace-nowrap">Add to Cart</button>
+                    <button class="add-to-cart text-[#FFFFFF] text-[18px] leading-8 font-medium bg-[#141718] w-full py-3 rounded-lg mt-4 cursor-pointer hover:opacity-70 transition-all duration-300 whitespace-nowrap">Add to Cart</button>
                     <div class="border-between-sections border-b mb-6 pt-8 border-[#6C7275] opacity-40"></div>
                     <span class="text-[#6C7275] text-[12px] leading-5 pr-33.5">SKU</span>
                     <span class="text-[#141718] text-[12px] leading-5">1117</span>
