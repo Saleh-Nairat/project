@@ -724,6 +724,33 @@
   .object-cover {
     object-fit: cover;
   }
+  .p-1 {
+    padding: var(--spacing);
+  }
+  .p-1\.5 {
+    padding: calc(var(--spacing) * 1.5);
+  }
+  .p-1\.25 {
+    padding: calc(var(--spacing) * 1.25);
+  }
+  .p-2 {
+    padding: calc(var(--spacing) * 2);
+  }
+  .p-2\.5 {
+    padding: calc(var(--spacing) * 2.5);
+  }
+  .p-3 {
+    padding: calc(var(--spacing) * 3);
+  }
+  .p-\[4\.1px\] {
+    padding: 4.1px;
+  }
+  .p-\[4\.25px\] {
+    padding: 4.25px;
+  }
+  .p-\[4\.\] {
+    padding: 4.;
+  }
   .p-px {
     padding: 1px;
   }
@@ -802,6 +829,9 @@
   .pt-2\.5 {
     padding-top: calc(var(--spacing) * 2.5);
   }
+  .pt-2\.25 {
+    padding-top: calc(var(--spacing) * 2.25);
+  }
   .pt-3 {
     padding-top: calc(var(--spacing) * 3);
   }
@@ -831,6 +861,39 @@
   }
   .pt-32 {
     padding-top: calc(var(--spacing) * 32);
+  }
+  .pt-\[4\.1px\] {
+    padding-top: 4.1px;
+  }
+  .pt-\[4\.2px\] {
+    padding-top: 4.2px;
+  }
+  .pt-\[4\.3px\] {
+    padding-top: 4.3px;
+  }
+  .pt-\[4\.5px\] {
+    padding-top: 4.5px;
+  }
+  .pt-\[5px\] {
+    padding-top: 5px;
+  }
+  .pt-\[7\.5px\] {
+    padding-top: 7.5px;
+  }
+  .pt-\[7px\] {
+    padding-top: 7px;
+  }
+  .pt-\[8px\] {
+    padding-top: 8px;
+  }
+  .pt-\[9px\] {
+    padding-top: 9px;
+  }
+  .pt-\[10px\] {
+    padding-top: 10px;
+  }
+  .pt-\[px\] {
+    padding-top: px;
   }
   .pr-12 {
     padding-right: calc(var(--spacing) * 12);
