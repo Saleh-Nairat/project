@@ -100,9 +100,9 @@
                 Contact Us</h1>
             <div class="our-contact-info grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 <div class="address bg-[#F3F5F7] flex flex-col items-center justify-center py-6">
-                    <img src="../icons/contact-us-store.svg" alt="sotre icon" class="pt-6">
+                    <img src="../icons/contact-us-store.svg" alt="sotre icon" class="sm:pt-6">
                     <span class="text-[#6C7275] text-[16px] leading-4 font-semibold pt-6 pb-3 uppercase">Address</span>
-                    <p class="text-[#141718] text-[16px] leading-6 font-semibold">
+                    <p class="text-[#141718] text-[14px] xs:text-[16px] leading-6 font-semibold">
                         234 Hai Trieu, Ho Chi Minh City,<br><span class="flex justify-center items-center">Viet
                             Name</span></p>
                 </div>
@@ -110,17 +110,56 @@
                     <img src="../icons/contact-us-call.svg" alt="calling icon">
                     <span class="text-[#6C7275] text-[16px] leading-4 font-semibold pt-6 pb-3 uppercase">Contact
                         Us</span>
-                    <p class="text-[#141718] text-[16px] leading-6 font-semibold">
+                    <p class="text-[#141718] text-[14px] xs:text-[16px] leading-6 font-semibold">
                         +84 234 567 890
                     </p>
                 </div>
                 <div class="email bg-[#F3F5F7] flex flex-col items-center justify-center py-6">
                     <img src="../icons/contact-us-email.svg" alt="email icon">
                     <span class="text-[#6C7275] text-[16px] leading-4 font-semibold pt-6 pb-3 uppercase">Email</span>
-                    <p class="text-[#141718] text-[16px] leading-6 font-semibold">
+                    <p class="text-[#141718] text-[14px] xs:text-[16px] leading-6 font-semibold">
                         hello@3legant.com
                     </p>
                 </div>
+            </div>
+
+        </section>
+
+        <section class="get-in-touch container grid grid-cols-1 md:grid-cols-2 gap-7 pb-20">
+
+            <div class="user-informaion">
+                <form action="" class="flex flex-col gap-6">
+                    <div class="user-name flex flex-col gap-3 justify-center">
+                        <label for="text"
+                            class="block text-[#6C7275] text-[12px] leading-3 font-semibold uppercase">full
+                            name</label>
+                        <input type="text" placeholder="Your Name" class="border border-[#6C7275] rounded-md
+                            placeholder:text-[#6C7275] placeholder:text-[16px] placeholder:leading-6 pl-4
+                            py-2">
+                    </div>
+                    <div class="user-name flex flex-col gap-3 justify-center">
+                        <label for="text" class="block text-[#6C7275] text-[12px] leading-3 font-semibold uppercase">
+                            Email address</label>
+                        <input type="text" placeholder="Your Email" class="border border-[#6C7275] rounded-md
+                            placeholder:text-[#6C7275] placeholder:text-[16px] placeholder:leading-6 pl-4
+                            py-2">
+                    </div>
+                    <div class="user-name flex flex-col gap-3 justify-center">
+                        <label for="text" class="block text-[#6C7275] text-[12px] leading-3 font-semibold uppercase">
+                            message</label>
+                        <textarea type="text" placeholder="Your message" rows="4" class="border border-[#6C7275] rounded-md
+                            placeholder:text-[#6C7275] placeholder:text-[16px] placeholder:leading-6 pl-4
+                            py-2"></textarea>
+                    </div>
+                    <button type="submit"
+                        class="bg-[#141718] w-47.25 text-[#FFFFFF] text-[16px] leading-7 py-2 rounded-lg hover:cursor-pointer hover:opacity-70 transition-all duration-300 whitespace-nowrap">Send
+                        Message</button>
+                </form>
+            </div>
+            <div class="our-location w-auto">
+                <iframe src="https://maps.google.com/maps?q=32.408226,35.343973&z=16&output=embed"
+                    class="w-full h-112.5 md:h-full" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
             </div>
 
         </section>
@@ -130,3 +169,5 @@
 </body>
 
 </html>
+
+<!-- npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch -->
