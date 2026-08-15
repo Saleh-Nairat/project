@@ -351,6 +351,9 @@
   .mt-1 {
     margin-top: var(--spacing);
   }
+  .mt-1\.5 {
+    margin-top: calc(var(--spacing) * 1.5);
+  }
   .mt-2 {
     margin-top: calc(var(--spacing) * 2);
   }
@@ -392,6 +395,9 @@
   }
   .mb-6 {
     margin-bottom: calc(var(--spacing) * 6);
+  }
+  .mb-7 {
+    margin-bottom: calc(var(--spacing) * 7);
   }
   .mb-8 {
     margin-bottom: calc(var(--spacing) * 8);
@@ -552,6 +558,9 @@
   .w-\[90\%\] {
     width: 90%;
   }
+  .w-\[95\%\] {
+    width: 95%;
+  }
   .w-auto {
     width: auto;
   }
@@ -621,6 +630,9 @@
   .items-center {
     align-items: center;
   }
+  .items-start {
+    align-items: flex-start;
+  }
   .justify-between {
     justify-content: space-between;
   }
@@ -629,6 +641,9 @@
   }
   .justify-end {
     justify-content: flex-end;
+  }
+  .justify-start {
+    justify-content: flex-start;
   }
   .gap-0 {
     gap: 0px;
@@ -753,6 +768,9 @@
   }
   .bg-\[\#ffdd99\] {
     background-color: #ffdd99;
+  }
+  .bg-\[\#red\] {
+    background-color: #red;
   }
   .bg-black {
     background-color: var(--color-black);
@@ -955,6 +973,15 @@
   .pb-14\.25 {
     padding-bottom: calc(var(--spacing) * 14.25);
   }
+  .pl-12 {
+    padding-left: calc(var(--spacing) * 12);
+  }
+  .pl-16 {
+    padding-left: calc(var(--spacing) * 16);
+  }
+  .pl-18 {
+    padding-left: calc(var(--spacing) * 18);
+  }
   .text-center {
     text-align: center;
   }
@@ -1135,6 +1162,9 @@
   .text-\[\#141718\] {
     color: #141718;
   }
+  .text-\[\#343839\] {
+    color: #343839;
+  }
   .text-\[\#353945\] {
     color: #353945;
   }
@@ -1149,6 +1179,9 @@
   }
   .text-\[\#FFFFFF\] {
     color: #FFFFFF;
+  }
+  .text-\[3-px\] {
+    color: 3-px;
   }
   .text-black {
     color: var(--color-black);
@@ -1473,6 +1506,9 @@
     .xs\:pb-2 {
       padding-bottom: calc(var(--spacing) * 2);
     }
+    .xs\:pl-14 {
+      padding-left: calc(var(--spacing) * 14);
+    }
     .xs\:text-\[12px\] {
       font-size: 12px;
     }
@@ -1610,6 +1646,9 @@
     .sm\:w-\[80\%\] {
       width: 80%;
     }
+    .sm\:w-\[90\%\] {
+      width: 90%;
+    }
     .sm\:grid-cols-2 {
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
@@ -1633,6 +1672,9 @@
     }
     .sm\:pb-6 {
       padding-bottom: calc(var(--spacing) * 6);
+    }
+    .sm\:pl-18 {
+      padding-left: calc(var(--spacing) * 18);
     }
     .sm\:text-\[12px\] {
       font-size: 12px;
