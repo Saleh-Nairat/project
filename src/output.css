@@ -378,6 +378,9 @@
   .h-6 {
     height: calc(var(--spacing) * 6);
   }
+  .h-10 {
+    height: calc(var(--spacing) * 10);
+  }
   .h-13 {
     height: calc(var(--spacing) * 13);
   }
@@ -420,6 +423,9 @@
   .w-6 {
     width: calc(var(--spacing) * 6);
   }
+  .w-10 {
+    width: calc(var(--spacing) * 10);
+  }
   .w-13 {
     width: calc(var(--spacing) * 13);
   }
@@ -429,8 +435,23 @@
   .w-47\.25 {
     width: calc(var(--spacing) * 47.25);
   }
+  .w-\[1\%\] {
+    width: 1%;
+  }
   .w-\[3\%\] {
     width: 3%;
+  }
+  .w-\[10\%\] {
+    width: 10%;
+  }
+  .w-\[12\%\] {
+    width: 12%;
+  }
+  .w-\[13\%\] {
+    width: 13%;
+  }
+  .w-\[14\%\] {
+    width: 14%;
   }
   .w-\[20\.75\%\] {
     width: 20.75%;
@@ -467,6 +488,9 @@
   }
   .w-\[95\%\] {
     width: 95%;
+  }
+  .w-\[100\%\] {
+    width: 100%;
   }
   .w-\[189px\] {
     width: 189px;
@@ -1353,6 +1377,9 @@
     .xs\:w-\[93\%\] {
       width: 93%;
     }
+    .xs\:grid-cols-2 {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
     .xs\:grid-cols-4 {
       grid-template-columns: repeat(4, minmax(0, 1fr));
     }
@@ -1612,6 +1639,9 @@
     }
     .md\:grid-cols-3 {
       grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    .md\:grid-cols-4 {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
     }
     .md\:flex-row {
       flex-direction: row;
