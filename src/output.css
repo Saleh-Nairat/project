@@ -477,6 +477,9 @@
   .w-\[\%\] {
     width: %;
   }
+  .w-\[0\%\] {
+    width: 0%;
+  }
   .w-\[3\%\] {
     width: 3%;
   }
@@ -537,6 +540,18 @@
   .w-\[60\^\] {
     width: 60^;
   }
+  .w-\[62\%\] {
+    width: 62%;
+  }
+  .w-\[63\%\] {
+    width: 63%;
+  }
+  .w-\[65\%\] {
+    width: 65%;
+  }
+  .w-\[70\%\] {
+    width: 70%;
+  }
   .w-\[75\%\] {
     width: 75%;
   }
@@ -557,6 +572,9 @@
   }
   .w-\[90\%\] {
     width: 90%;
+  }
+  .w-\[90\] {
+    width: 90;
   }
   .w-\[95\%\] {
     width: 95%;
@@ -859,6 +877,9 @@
   .py-4\.5 {
     padding-block: calc(var(--spacing) * 4.5);
   }
+  .py-6 {
+    padding-block: calc(var(--spacing) * 6);
+  }
   .py-10 {
     padding-block: calc(var(--spacing) * 10);
   }
@@ -1138,8 +1159,14 @@
   .whitespace-nowrap {
     white-space: nowrap;
   }
+  .whitespace-pre-wrap {
+    white-space: pre-wrap;
+  }
   .text-\[\#000000\] {
     color: #000000;
+  }
+  .text-\[\#4e5457\] {
+    color: #4e5457;
   }
   .text-\[\#6C7275\] {
     color: #6C7275;
