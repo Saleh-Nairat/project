@@ -525,8 +525,23 @@
   .w-\[50\%\] {
     width: 50%;
   }
+  .w-\[60\%\] {
+    width: 60%;
+  }
+  .w-\[60\^\] {
+    width: 60^;
+  }
   .w-\[75\%\] {
     width: 75%;
+  }
+  .w-\[80\%\] {
+    width: 80%;
+  }
+  .w-\[80\] {
+    width: 80;
+  }
+  .w-\[80p\] {
+    width: 80p;
   }
   .w-\[85\%\] {
     width: 85%;
@@ -979,6 +994,9 @@
   .text-\[40px\] {
     font-size: 40px;
   }
+  .text-\[54px\] {
+    font-size: 54px;
+  }
   .text-\[72px\] {
     font-size: 72px;
   }
@@ -1030,9 +1048,21 @@
     --tw-leading: calc(var(--spacing) * 12);
     line-height: calc(var(--spacing) * 12);
   }
+  .leading-14 {
+    --tw-leading: calc(var(--spacing) * 14);
+    line-height: calc(var(--spacing) * 14);
+  }
+  .leading-14\.5 {
+    --tw-leading: calc(var(--spacing) * 14.5);
+    line-height: calc(var(--spacing) * 14.5);
+  }
   .leading-18 {
     --tw-leading: calc(var(--spacing) * 18);
     line-height: calc(var(--spacing) * 18);
+  }
+  .leading-\[58px\] {
+    --tw-leading: 58px;
+    line-height: 58px;
   }
   .font-\[450\] {
     --tw-font-weight: 450;
