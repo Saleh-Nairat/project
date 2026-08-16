@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../src/output.css">
+</head>
+
+<body>
+
+    <header class="py-4.5 bg-white z-50 fixed top-0 right-0 left-0">
+
+        <div class="header-section container flex justify-between items-center">
+
+            <div class="menu max-md:block hidden">
+                <img src="../icons/menu.png" alt="menu-icon">
+            </div>
+
+            <div class="project-name">
+                <h2 class="text-[24px] font-bold">3legant.</h2>
+            </div>
+
+            <div class="list max-md:hidden block">
+
+                <ul class="flex gap-10">
+
+                    <li><a href="../index.html"
+                            class="inline-block hover:text-blue-600 transition-all duration-300 hover:scale-[90%]">Home</a>
+                    </li>
+                    <li><a href="./shop.html"
+                            class="opacity-40 inline-block hover:text-blue-600 transition-all duration-300 hover:scale-[90%]">Shop</a>
+                    </li>
+                    <li><a href="./product.html"
+                            class="opacity-40 inline-block hover:text-blue-600 transition-all duration-300 hover:scale-[90%]">Product</a>
+                    </li>
+                    <li><a href="./contact-us.html"
+                            class="opacity-40 inline-block hover:text-blue-600 transition-all duration-300 hover:scale-[90%]">Contact
+                            Us</a></li>
+                </ul>
+            </div>
+            <div class="icons">
+                <ul class="flex gap-4">
+                    <li><a href="#"><img src="../icons/search.png" class="max-md:hidden block" alt="search"></a></li>
+                    <li><a href="#"><img src="../icons/Vector.png" class="max-md:hidden block" alt="Vector"></a></li>
+                    <li><a href="#"><img src="../icons/shopping bag.png" alt="shopping bag"></a></li>
+                </ul>
+            </div>
+        </div>
+
+    </header>
+
+    <main class="pt-20">
+
+        <section class="cart container pt-20 flex flex-col justify-center items-center">
+
+            <h1 class="text-[#000000] text-[54px] leading-14 font-medium flex justify-center items-center">Cart</h1>    
+            <div class="buy-steps flex flex-col lg:flex-row gap-10 justify-center items-center">
+                <div class="steps pt-10.5">
+                    <div class="first-step max-lg:w-58 group flex gap-4 items-center pr-16 pb-6 border-black border-b-3">
+                        <span class="bg-[#23262F] group-hover:bg-blue-500 py-2 px-4.25 rounded-full text-white transition-all duration-300">1</span>
+                        <h4 class="text-[#23262F] text-[16px] leading-6 font-semibold group-hover:text-blue-500 transition-all duration-300 hover:cursor-pointer whitespace-nowrap">Shopping cart</h4>
+                    </div>
+                </div>
+                <div class="steps pt-10.5">
+                    <div class="second-step max-lg:w-55 group flex gap-4 items-center pr-16 pb-6 border-black/0 border-b-3 hover:border-[#B1B5C3] transition-all duration-300">
+                        <span class="bg-[#B1B5C3] group-hover:bg-blue-500 py-2 px-4.25 rounded-full text-white transition-all duration-300">2</span>
+                        <h4 class="text-[#B1B5C3] text-[16px] leading-6 font-semibold group-hover:text-blue-500 transition-all duration-300 hover:cursor-pointer whitespace-nowrap">Checkout details</h4>
+                    </div>
+                </div>
+                <div class="steps pt-10.5">
+                    <div class="third-step max-lg:w-55 group flex gap-4 items-center pb-6 border-black/0 border-b-3 hover:border-[#B1B5C3] transition-all duration-300">
+                        <span class="bg-[#B1B5C3] group-hover:bg-blue-500 py-2 px-4.25 rounded-full text-white transition-all duration-300">3</span>
+                        <h4 class="text-[#B1B5C3] text-[16px] leading-6 font-semibold group-hover:text-blue-500 hover:cursor-pointer transition-all duration-300 whitespace-nowrap">Order complete</h4>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+    
+</body>
+
+</html>
+
+<!-- npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch -->
