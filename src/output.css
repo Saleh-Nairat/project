@@ -1062,6 +1062,21 @@
   .pl-4 {
     padding-left: calc(var(--spacing) * 4);
   }
+  .pl-12 {
+    padding-left: calc(var(--spacing) * 12);
+  }
+  .pl-14 {
+    padding-left: calc(var(--spacing) * 14);
+  }
+  .pl-16 {
+    padding-left: calc(var(--spacing) * 16);
+  }
+  .pl-32 {
+    padding-left: calc(var(--spacing) * 32);
+  }
+  .pl-48 {
+    padding-left: calc(var(--spacing) * 48);
+  }
   .text-center {
     text-align: center;
   }
@@ -1399,10 +1414,22 @@
     color: #6C7275;
   }
   @media (hover: hover) {
+    .hover\:scale-1:hover {
+      --tw-scale-x: 1%;
+      --tw-scale-y: 1%;
+      --tw-scale-z: 1%;
+      scale: var(--tw-scale-x) var(--tw-scale-y);
+    }
     .hover\:scale-97:hover {
       --tw-scale-x: 97%;
       --tw-scale-y: 97%;
       --tw-scale-z: 97%;
+      scale: var(--tw-scale-x) var(--tw-scale-y);
+    }
+    .hover\:scale-110:hover {
+      --tw-scale-x: 110%;
+      --tw-scale-y: 110%;
+      --tw-scale-z: 110%;
       scale: var(--tw-scale-x) var(--tw-scale-y);
     }
     .hover\:scale-\[90\%\]:hover {
@@ -1440,6 +1467,9 @@
     }
     .hover\:bg-gray-500:hover {
       background-color: var(--color-gray-500);
+    }
+    .hover\:pr-16:hover {
+      padding-right: calc(var(--spacing) * 16);
     }
     .hover\:text-blue-500:hover {
       color: var(--color-blue-500);
@@ -2046,8 +2076,14 @@
     .lg\:gap-15\.75 {
       gap: calc(var(--spacing) * 15.75);
     }
+    .lg\:pr-16 {
+      padding-right: calc(var(--spacing) * 16);
+    }
     .lg\:pr-18 {
       padding-right: calc(var(--spacing) * 18);
+    }
+    .lg\:pl-16 {
+      padding-left: calc(var(--spacing) * 16);
     }
     .lg\:text-\[30px\] {
       font-size: 30px;
