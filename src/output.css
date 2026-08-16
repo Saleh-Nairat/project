@@ -401,6 +401,9 @@
   .mx-auto {
     margin-inline: auto;
   }
+  .my-1 {
+    margin-block: var(--spacing);
+  }
   .my-2 {
     margin-block: calc(var(--spacing) * 2);
   }
@@ -452,8 +455,14 @@
   .mr-\[160px\] {
     margin-right: 160px;
   }
+  .mb-1 {
+    margin-bottom: var(--spacing);
+  }
   .mb-2 {
     margin-bottom: calc(var(--spacing) * 2);
+  }
+  .mb-3 {
+    margin-bottom: calc(var(--spacing) * 3);
   }
   .mb-4 {
     margin-bottom: calc(var(--spacing) * 4);
@@ -1248,14 +1257,29 @@
   .pb-\[484px\] {
     padding-bottom: 484px;
   }
+  .pl-0 {
+    padding-left: 0px;
+  }
   .pl-3 {
     padding-left: calc(var(--spacing) * 3);
   }
   .pl-4 {
     padding-left: calc(var(--spacing) * 4);
   }
+  .pl-16 {
+    padding-left: calc(var(--spacing) * 16);
+  }
+  .pl-18 {
+    padding-left: calc(var(--spacing) * 18);
+  }
   .pl-22 {
     padding-left: calc(var(--spacing) * 22);
+  }
+  .pl-\[1\] {
+    padding-left: 1;
+  }
+  .pl-\[16\] {
+    padding-left: 16;
   }
   .pl-\[88px\] {
     padding-left: 88px;
@@ -1268,6 +1292,9 @@
   }
   .font-poppins {
     font-family: var(--font-poppins);
+  }
+  .text-\[1px\] {
+    font-size: 1px;
   }
   .text-\[10px\] {
     font-size: 10px;
@@ -1292,6 +1319,9 @@
   }
   .text-\[20px\] {
     font-size: 20px;
+  }
+  .text-\[22px\] {
+    font-size: 22px;
   }
   .text-\[24px\] {
     font-size: 24px;
@@ -1651,6 +1681,12 @@
     .max-xs\:mt-1 {
       margin-top: var(--spacing);
     }
+    .max-xs\:mb-4 {
+      margin-bottom: calc(var(--spacing) * 4);
+    }
+    .max-xs\:mb-6 {
+      margin-bottom: calc(var(--spacing) * 6);
+    }
     .max-xs\:w-\[75\%\] {
       width: 75%;
     }
@@ -1740,6 +1776,9 @@
     }
     .max-lg\:pb-8 {
       padding-bottom: calc(var(--spacing) * 8);
+    }
+    .max-lg\:text-center {
+      text-align: center;
     }
     .max-lg\:text-\[12px\] {
       font-size: 12px;
@@ -1911,6 +1950,9 @@
     }
     .xs\:pl-14 {
       padding-left: calc(var(--spacing) * 14);
+    }
+    .xs\:pl-18 {
+      padding-left: calc(var(--spacing) * 18);
     }
     .xs\:text-\[12px\] {
       font-size: 12px;
