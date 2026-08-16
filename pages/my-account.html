@@ -58,33 +58,35 @@
 
     <main class="pt-15">
 
-        <h1 class="text-[#000000] text-[54px] leading-14 font-medium flex justify-center items-center pt-26 pb-26">My
+        <h1 class="text-[#000000] text-[48px] xs:text-[54px] leading-14 font-medium flex justify-center items-center pt-24 pb-26">My
             Account
         </h1>
 
         <section class="account container pb-20">
 
-            <div class="account-details grid grid-cols-[auto_1fr] gap-20">
-                <div class="side-bar w-65.5 h-124.5 bg-[#F3F5F7] px-4 py-12">
-                    <div class="user-photo flex flex-col justify-center items-center">
+            <div class="account-details grid grid-cols-1 md:grid-cols-[auto_1fr] gap-20">
+                <div class="side-bar w-65.5 h-124.5 bg-[#F3F5F7] px-4 py-12 max-md:mx-auto max-md:w-full max-md:h-full">
+                    <div class="user-photo w-fit mx-auto flex flex-col justify-center items-center relative">
                         <img src="../imgs/review_placeholder1.png" alt="personal photo" class="pb-2">
+                        <img src="../icons/my-account-camera.svg" alt="camera icon" class="absolute bottom-[32%] right-[20%] cursor-pointer">
                         <span class="text-[#000000] text-[20px] leading-8 font-semibold">Sofia Havertz</span>
                     </div>
                     <h5
-                        class="text-[#141718] text-[16px] leading-6 font-semibold underline underline-offset-8 pt-12 cursor-pointer hover:text-blue-500 transition-all duration-300">
-                        Account</h5>
+                        class="text-[#141718] text-[16px] leading-6 font-semibold pt-12 pb-1.5 border-b-2 border-[#141718]">
+                        <span class="cursor-pointer hover:text-blue-500 transition-all duration-300">Account</span>
+                    </h5>
                     <ul class="flex flex-col gap-6 pt-6">
                         <li
-                            class="text-[#6C7275] text-[16px] leading-6 font-semibold cursor-pointer hover:text-blue-500 transition-all duration-300">
+                            class="w-fit text-[#6C7275] text-[16px] leading-6 font-semibold cursor-pointer hover:text-blue-500 transition-all duration-300">
                             Address</li>
                         <li
-                            class="text-[#6C7275] text-[16px] leading-6 font-semibold cursor-pointer hover:text-blue-500 transition-all duration-300">
+                            class="w-fit text-[#6C7275] text-[16px] leading-6 font-semibold cursor-pointer hover:text-blue-500 transition-all duration-300">
                             Orders</li>
                         <li
-                            class="text-[#6C7275] text-[16px] leading-6 font-semibold cursor-pointer hover:text-blue-500 transition-all duration-300">
+                            class="w-fit text-[#6C7275] text-[16px] leading-6 font-semibold cursor-pointer hover:text-blue-500 transition-all duration-300">
                             Wishlist</li>
                         <li
-                            class="text-[#6C7275] text-[16px] leading-6 font-semibold cursor-pointer hover:text-blue-500 transition-all duration-300">
+                            class="w-fit text-[#6C7275] text-[16px] leading-6 font-semibold cursor-pointer hover:text-blue-500 transition-all duration-300">
                             Log Out</li>
                     </ul>
                 </div>
