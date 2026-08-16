@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../src/output.css">
+</head>
+
+<body>
+
+    <main>
+
+        <section class="sign-in grid grid-cols-1 lg:grid-cols-2">
+            <div class="first-part h-screen relative bg-[#F3F5F7]">
+                <img src="../imgs/sign-in.png" alt="sofa" class="w-full h-screen object-contain">
+                <span
+                    class="text-[#000000] text-[24px] leading-6 font-medium font-poppins absolute top-8 left-[calc(50%-52.5px)]">3legant.</span>
+            </div>
+            <div class="second-part w-[85%] xs:w-[70%] flex flex-col justify-center max-lg:mx-auto max-lg:py-6 ml-22">
+                <h1 class="text-[#141718] text-[40px] leading-11 font-medium pb-6 px-3">Sign In</h1>
+                <p class="text-[#6C7275] text-[14px] sm:text-[16px] leading-6.5 px-3 pb-6">Don’t have an accout yet? <span
+                        class="text-[#38CB89] text-[14px] sm:text-[16px] leading-6.5 font-semibold"><a href="#">Sign Up</a></span></p>
+                <form>
+                    <input type="text" name="usernam or email" placeholder="Your usernam or email address"
+                        class="placeholder:text-[#6C7275] placeholder:text-[14px] xs:placeholder:text-[16px] placeholder:leading-6.5 w-full border-b border-[#E8ECEF] px-3 py-4">
+                    <div class="pass flex justify-between w-full border-b border-[#E8ECEF] ">
+                        <input type="password" name="Password" placeholder="Password"
+                            class="placeholder:text-[#6C7275] text-[14px] xs:placeholder:text-[16px] placeholder:leading-6.5 w-full px-3 py-4 mt-6">
+                        <img src="../icons/sign-in-eye.svg" alt="eye to hide password" class="pt-6 cursor-pointer">
+                    </div>
+                    <div class="remember-me-and-forget-password flex justify-between pt-8">
+                        <div class="flex items-center gap-3">
+                            <input type="checkbox" name="remember me" class="w-4 xs:w-6 h-4 xs:h-6 rounded-sm border-[#6C7275]">
+                            <label class="text-[#6C7275] text-[12px] xs:text-[14px] sm:text-[16px] leading-6.5">Remember me</label>
+                        </div>
+                        <a href="#"
+                            class="text-[#141718] text-[12px] xs:text-[14px] sm:text-[16px] leading-6.5 font-semibold hover:text-blue-500 transition-all duration-300">Forgot
+                            password?</a>
+                    </div>
+                    <button type="submit"
+                        class="bg-[#141718] text-[#FFFFFF] text-[16px] leading-7 w-full py-3 mt-8 rounded-lg hover:opacity-70 cursor-pointer transition-all duration-300"><a
+                            href="../index.html">Sign In</a></button>
+                </form>
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>
