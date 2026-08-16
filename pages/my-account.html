@@ -8,13 +8,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="../src/output.css">
 </head>
 
 <body>
-    
+
     <header class="py-4.5 bg-white z-50 fixed top-0 right-0 left-0">
 
         <div class="header-section container flex justify-between items-center">
@@ -55,6 +55,98 @@
         </div>
 
     </header>
+
+    <main class="pt-15">
+
+        <h1 class="text-[#000000] text-[54px] leading-14 font-medium flex justify-center items-center pt-26 pb-26">My
+            Account
+        </h1>
+
+        <section class="account container pb-20">
+
+            <div class="account-details grid grid-cols-[auto_1fr] gap-20">
+                <div class="side-bar w-65.5 h-124.5 bg-[#F3F5F7] px-4 py-12">
+                    <div class="user-photo flex flex-col justify-center items-center">
+                        <img src="../imgs/review_placeholder1.png" alt="personal photo" class="pb-2">
+                        <span class="text-[#000000] text-[20px] leading-8 font-semibold">Sofia Havertz</span>
+                    </div>
+                    <h5
+                        class="text-[#141718] text-[16px] leading-6 font-semibold underline underline-offset-8 pt-12 cursor-pointer hover:text-blue-500 transition-all duration-300">
+                        Account</h5>
+                    <ul class="flex flex-col gap-6 pt-6">
+                        <li
+                            class="text-[#6C7275] text-[16px] leading-6 font-semibold cursor-pointer hover:text-blue-500 transition-all duration-300">
+                            Address</li>
+                        <li
+                            class="text-[#6C7275] text-[16px] leading-6 font-semibold cursor-pointer hover:text-blue-500 transition-all duration-300">
+                            Orders</li>
+                        <li
+                            class="text-[#6C7275] text-[16px] leading-6 font-semibold cursor-pointer hover:text-blue-500 transition-all duration-300">
+                            Wishlist</li>
+                        <li
+                            class="text-[#6C7275] text-[16px] leading-6 font-semibold cursor-pointer hover:text-blue-500 transition-all duration-300">
+                            Log Out</li>
+                    </ul>
+                </div>
+                <div class="user-information">
+                    <h2 class="text-[#000000] text-[20px] leading-8 font-semibold pb-6">Account Details</h2>
+                    <form>
+                        <div class="first-name flex flex-col">
+                            <label class="text-[#6C7275] text-[12px] leading-3 pb-3">First name *</label>
+                            <input type="text" placeholder="First name"
+                                class="placeholder:text-[#6C7275] placeholder:text-[16px] placeholder:leading-6.5 px-4 py-2 border border-[#CBCBCB] rounded-md"
+                                required>
+                        </div>
+                        <div class="last-name flex flex-col">
+                            <label class="text-[#6C7275] text-[12px] leading-3 pt-6 pb-3">Last name *</label>
+                            <input type="text" placeholder="Last name"
+                                class="placeholder:text-[#6C7275] placeholder:text-[16px] placeholder:leading-6.5 px-4 py-2 border border-[#CBCBCB] rounded-md"
+                                required>
+                        </div>
+                        <div class="display-name flex flex-col">
+                            <label class="text-[#6C7275] text-[12px] leading-3 pt-6 pb-3">Display name *</label>
+                            <input type="text" placeholder="Display name"
+                                class="placeholder:text-[#6C7275] placeholder:text-[16px] placeholder:leading-6.5 px-4 py-2 border border-[#CBCBCB] rounded-md"
+                                required>
+                            <p class="text-[#6C7275] text-[12px] leading-5 italic py-2 font-inter">This will be how your
+                                name will
+                                be displayed in the account section and in reviews</p>
+                        </div>
+                        <div class="email flex flex-col">
+                            <label class="text-[#6C7275] text-[12px] leading-3 pt-6 pb-3">Email *</label>
+                            <input type="email" placeholder="Email"
+                                class="placeholder:text-[#6C7275] placeholder:text-[16px] placeholder:leading-6.5 px-4 py-2 border border-[#CBCBCB] rounded-md"
+                                required>
+                        </div>
+                        <h3 class="text-[#000000] text-[20px] leading-8 font-semibold pt-10 font-inter">Password</h3>
+                        <div class="old-password flex flex-col">
+                            <label class="text-[#6C7275] text-[12px] leading-3 pt-6 pb-3">Old password</label>
+                            <input type="email" placeholder="Old password"
+                                class="placeholder:text-[#6C7275] placeholder:text-[16px] placeholder:leading-6.5 px-4 py-2 border border-[#CBCBCB] rounded-md"
+                                required>
+                        </div>
+                        <div class="new-password flex flex-col">
+                            <label class="text-[#6C7275] text-[12px] leading-3 pt-6 pb-3">New password</label>
+                            <input type="email" placeholder="New password"
+                                class="placeholder:text-[#6C7275] placeholder:text-[16px] placeholder:leading-6.5 px-4 py-2 border border-[#CBCBCB] rounded-md"
+                                required>
+                        </div>
+                        <div class="repeat-new-password flex flex-col">
+                            <label class="text-[#6C7275] text-[12px] leading-3 pt-6 pb-3">Repeat new password</label>
+                            <input type="email" placeholder="Repeat new password"
+                                class="placeholder:text-[#6C7275] placeholder:text-[16px] placeholder:leading-6.5 px-4 py-2 border border-[#CBCBCB] rounded-md"
+                                required>
+                        </div>
+                        <button type="submit"
+                            class="bg-[#141718] text-[#FFFFFF] text-[16px] leading-7 px-10 py-3 mt-6 rounded-lg cursor-pointer hover:opacity-70 transition-all duration-300">Save
+                            changes</button>
+                    </form>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
 
 </body>
 
