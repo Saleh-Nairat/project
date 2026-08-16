@@ -58,34 +58,174 @@
 
     <main class="pt-20">
 
-        <section class="cart container pt-20 flex flex-col justify-center items-center">
+        <section class="cart container py-20 flex flex-col justify-center items-center">
 
-            <h1 class="text-[#000000] text-[54px] leading-14 font-medium flex justify-center items-center">Cart</h1>    
+            <h1 class="text-[#000000] text-[54px] leading-14 font-medium flex justify-center items-center">Cart</h1>
             <div class="buy-steps flex flex-col lg:flex-row gap-10 justify-center items-center">
                 <div class="steps pt-10.5">
-                    <div class="first-step max-lg:w-58 group flex gap-4 items-center pr-16 pb-6 border-black border-b-3">
-                        <span class="bg-[#23262F] group-hover:bg-blue-500 py-2 px-4.25 rounded-full text-white transition-all duration-300">1</span>
-                        <h4 class="text-[#23262F] text-[16px] leading-6 font-semibold group-hover:text-blue-500 transition-all duration-300 hover:cursor-pointer whitespace-nowrap">Shopping cart</h4>
+                    <div
+                        class="first-step max-lg:w-58 group flex gap-4 items-center pr-16 pb-6 border-black border-b-3">
+                        <span
+                            class="bg-[#23262F] group-hover:bg-blue-500 py-2 px-4.25 rounded-full text-white transition-all duration-300">1</span>
+                        <h4
+                            class="text-[#23262F] text-[16px] leading-6 font-semibold group-hover:text-blue-500 transition-all duration-300 hover:cursor-pointer whitespace-nowrap">
+                            Shopping cart</h4>
                     </div>
                 </div>
                 <div class="steps pt-10.5">
-                    <div class="second-step max-lg:w-55 group flex gap-4 items-center pr-16 pb-6 border-black/0 border-b-3 hover:border-[#B1B5C3] transition-all duration-300">
-                        <span class="bg-[#B1B5C3] group-hover:bg-blue-500 py-2 px-4.25 rounded-full text-white transition-all duration-300">2</span>
-                        <h4 class="text-[#B1B5C3] text-[16px] leading-6 font-semibold group-hover:text-blue-500 transition-all duration-300 hover:cursor-pointer whitespace-nowrap">Checkout details</h4>
+                    <div
+                        class="second-step max-lg:w-55 group flex gap-4 items-center pr-16 pb-6 border-black/0 border-b-3 hover:border-[#B1B5C3] transition-all duration-300">
+                        <span
+                            class="bg-[#B1B5C3] group-hover:bg-blue-500 py-2 px-4.25 rounded-full text-white transition-all duration-300">2</span>
+                        <h4
+                            class="text-[#B1B5C3] text-[16px] leading-6 font-semibold group-hover:text-blue-500 transition-all duration-300 hover:cursor-pointer whitespace-nowrap">
+                            Checkout details</h4>
                     </div>
                 </div>
                 <div class="steps pt-10.5">
-                    <div class="third-step max-lg:w-55 group flex gap-4 items-center pb-6 border-black/0 border-b-3 hover:border-[#B1B5C3] transition-all duration-300">
-                        <span class="bg-[#B1B5C3] group-hover:bg-blue-500 py-2 px-4.25 rounded-full text-white transition-all duration-300">3</span>
-                        <h4 class="text-[#B1B5C3] text-[16px] leading-6 font-semibold group-hover:text-blue-500 hover:cursor-pointer transition-all duration-300 whitespace-nowrap">Order complete</h4>
+                    <div
+                        class="third-step max-lg:w-55 group flex gap-4 items-center pb-6 border-black/0 border-b-3 hover:border-[#B1B5C3] transition-all duration-300">
+                        <span
+                            class="bg-[#B1B5C3] group-hover:bg-blue-500 py-2 px-4.25 rounded-full text-white transition-all duration-300">3</span>
+                        <h4
+                            class="text-[#B1B5C3] text-[16px] leading-6 font-semibold group-hover:text-blue-500 hover:cursor-pointer transition-all duration-300 whitespace-nowrap">
+                            Order complete</h4>
                     </div>
                 </div>
             </div>
 
         </section>
 
+        <section class="bill container grid grid-cols-1 xl:grid-cols-2 gap-16">
+
+            <div class="first-col-of-bill">
+                <div class="bill-header flex justify-between border-b-2 border-[#6C7275]/80 pb-4">
+                    <h5 class="text-[#121212] text-[16px] leading-6 font-semibold">product</h5>
+                    <ul class="flex gap-3 xs:gap-8 sm:gap-[74.5px] items-center">
+                        <li class="text-[#121212] text-[14px] xs:text-[16px] leading-6 font-semibold">Quantity</li>
+                        <li class="text-[#121212] text-[14px] xs:text-[16px] leading-6 font-semibold">Price</li>
+                        <li class="text-[#121212] text-[14px] xs:text-[16px] leading-6 font-semibold">Subtotal</li>
+                    </ul>
+                </div>
+                <div class="cart-products flex flex-col">
+                    <div class="cart-product flex flex-col sm:flex-row justify-between py-6 border-b border-[#6C7275]/40 pb-10">
+                        <div class="cart-product-details flex gap-4 h-full">
+                            <img src="../imgs/product-color1.png" alt="black placeholder table">
+                            <div class="cart-product-info flex flex-col gap-2.5">
+                                <span class="text-[#141718] text-[14px] leading-5.5 font-semibold">Tray Table</span>
+                                <span class="text-[#6C7275] text-[12px] leading-5">Color: Black</span>
+                                <div class="remove flex gap-1">
+                                    <button class="hover:cursor-pointer"><img src="../icons/cart-remove.svg"
+                                            alt="remove mark" class=""></button>
+                                    <span class="text-[#6C7275] text-[14px] leading-5.5 font-semibold">Remove</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="quantity-price-subtotal flex flex-col gap-6 sm:flex-row sm:gap-16 sm:items-center max-sm:pt-6">
+                            <div
+                                class="quantity flex gap-3 items-center border-2 border-[#6C7275] rounded-sm max-sm:w-fit px-3 py-0.5">
+                                <button class="text-[#121212] hover:cursor-pointer">-</button>
+                                <span class="text-[#121212] text-[12px] leading-5 font-semibold">2</span>
+                                <button class="text-[#121212] hover:cursor-pointer">+</button>
+                            </div>
+                            <span class="text-[#121212] text-[18px] leading-7 font-medium">$19.00</span>
+                            <span class="text-[#121212] text-[18px] leading-7 font-semibold">$38.00</span>
+                        </div>
+                    </div>
+                    <div class="cart-product flex justify-between py-6 border-b border-[#6C7275]/40 pb-10">
+                        <div class="cart-product-details flex gap-4 h-full">
+                            <img src="../imgs/product-color3.png" alt="red placeholder table">
+                            <div class="cart-product-info flex flex-col gap-2.5">
+                                <span class="text-[#141718] text-[14px] leading-5.5 font-semibold">Tray Table</span>
+                                <span class="text-[#6C7275] text-[12px] leading-5">Color: Red</span>
+                                <div class="remove flex gap-1">
+                                    <button class="hover:cursor-pointer"><img src="../icons/cart-remove.svg"
+                                            alt="remove mark" class=""></button>
+                                    <span class="text-[#6C7275] text-[14px] leading-5.5 font-semibold">Remove</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="quantity-price-subtotal flex gap-16 items-center">
+                            <div
+                                class="quantity flex gap-3 items-center border-2 border-[#6C7275] rounded-sm px-3 py-0.5">
+                                <button class="text-[#121212] hover:cursor-pointer">-</button>
+                                <span class="text-[#121212] text-[12px] leading-5 font-semibold">2</span>
+                                <button class="text-[#121212] hover:cursor-pointer">+</button>
+                            </div>
+                            <span class="text-[#121212] text-[18px] leading-7 font-medium">$19.00</span>
+                            <span class="text-[#121212] text-[18px] leading-7 font-semibold">$38.00</span>
+                        </div>
+                    </div>
+                    <div class="cart-product flex justify-between py-6 border-b border-[#6C7275]/40 pb-10">
+                        <div class="cart-product-details flex gap-4 h-full">
+                            <img src="../imgs/cart-product-3.png" alt="Table lamp product" class="w-[37.5%]">
+                            <div class="cart-product-info flex flex-col gap-2.5">
+                                <span class="text-[#141718] text-[14px] leading-5.5 font-semibold">Table lamp</span>
+                                <span class="text-[#6C7275] text-[12px] leading-5">Color: Gold</span>
+                                <div class="remove flex gap-1">
+                                    <button class="hover:cursor-pointer"><img src="../icons/cart-remove.svg"
+                                            alt="remove mark" class=""></button>
+                                    <span class="text-[#6C7275] text-[14px] leading-5.5 font-semibold">Remove</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="quantity-price-subtotal flex gap-16 items-center">
+                            <div
+                                class="quantity flex gap-3 items-center border-2 border-[#6C7275] rounded-sm px-3 py-0.5">
+                                <button class="text-[#121212] hover:cursor-pointer">-</button>
+                                <span class="text-[#121212] text-[12px] leading-5 font-semibold">1</span>
+                                <button class="text-[#121212] hover:cursor-pointer">+</button>
+                            </div>
+                            <span class="text-[#121212] text-[18px] leading-7 font-medium">$39.00</span>
+                            <span class="text-[#121212] text-[18px] leading-7 font-semibold">$39.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cart-summary border border-[#141718] rounded-md p-6">
+                <h2 class="text-[#141718] text-[20px] leading-7 font-medium pb-4">Cart summary</h2>
+                <form action="">
+                    <div class="choices flex flex-col gap-6">
+                        <div class="choice flex justify-between px-4 pt-3 pb-4 border border-[#141718] rounded-sm">
+                            <div class="flex gap-3">
+                                <input type="radio" name="shipping">
+                                <h6 class="text-[#141718] text-[16px] leading-6">Free shipping</h6>
+                            </div>
+                            <span class="text-[#141718] text-[16px] leading-6">$0.00</span>
+                        </div>
+                        <div class="choice flex justify-between px-4 py-3 border border-[#141718] rounded-sm">
+                            <div class="flex gap-3">
+                                <input type="radio" name="shipping">
+                                <h6 class="text-[#141718] text-[16px] leading-6">Express shipping</h6>
+                            </div>
+                            <span class="text-[#141718] text-[16px] leading-6">+$15.00</span>
+                        </div>
+                        <div class="choice flex justify-between px-4 py-3 border border-[#141718] rounded-sm">
+                            <div class="flex gap-3">
+                                <input type="radio" name="shipping">
+                                <h6 class="text-[#141718] text-[16px] leading-6">Pick Up</h6>
+                            </div>
+                            <span class="text-[#141718] text-[16px] leading-6">%21.00</span>
+                        </div>
+                    </div>
+                    <div class="subtotal flex justify-between items-center pt-12 pb-4 border-b border-[#6C7275]/40">
+                        <span class="text-[#141718] text-[16px] leading-6">Subtotal</span>
+                        <span class="text-[#141718] text-[16px] leading-6 font-semibold">$1234.00</span>
+                    </div>
+                    <div class="total flex justify-between pt-6 pb-8">
+                        <span class="text-[#141718] text-[20px] leading-8 font-semibold">Total</span>
+                        <span class="text-[#141718] text-[20px] leading-8 font-semibold">$1345.00</span>
+                    </div>
+                    <button type="submit" class="bg-[#141718] text-[#FFFFFF] text-[18px] leading-8 font-medium w-full py-4 rounded-lg hover:cursor-pointer hover:opacity-70 transition-all duration-300">Checkout</button>
+                </form>
+            </div>
+
+
+        </section>
+
     </main>
-    
+
 </body>
 
 </html>
