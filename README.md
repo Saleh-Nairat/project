@@ -22,8 +22,8 @@ The project focuses on creating a clean, user-friendly shopping experience with 
 * Shop
 * Product Details
 * Cart
-* personal account
-* login
+* My Account
+* Login
 * Blog
 * Contact
 
