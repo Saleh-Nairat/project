@@ -1921,6 +1921,42 @@
     .lg\:mb-3 {
       margin-bottom: calc(var(--spacing) * 3);
     }
+    .lg\:h-\[calc\(100vh-\)\] {
+      height: calc(100vh - );
+    }
+    .lg\:h-\[calc\(100vh-18\)\] {
+      height: calc(100vh - 18);
+    }
+    .lg\:h-\[calc\(100vh-60px\)\] {
+      height: calc(100vh - 60px);
+    }
+    .lg\:h-\[calc\(100vh-60px-256p\)\] {
+      height: calc(100vh - 60px - 256p);
+    }
+    .lg\:h-\[calc\(100vh-60px-256px\)\] {
+      height: calc(100vh - 60px - 256px);
+    }
+    .lg\:h-\[calc\(100vh-120px\)\] {
+      height: calc(100vh - 120px);
+    }
+    .lg\:h-\[calc\(100vh-130px\)\] {
+      height: calc(100vh - 130px);
+    }
+    .lg\:h-\[calc\(100vh-160px\)\] {
+      height: calc(100vh - 160px);
+    }
+    .lg\:h-\[calc\(100vh-170px\)\] {
+      height: calc(100vh - 170px);
+    }
+    .lg\:h-\[calc\(100vh-180px\)\] {
+      height: calc(100vh - 180px);
+    }
+    .lg\:h-\[calc\(100vh-200px\)\] {
+      height: calc(100vh - 200px);
+    }
+    .lg\:h-\[calc\(100vh-256px\)\] {
+      height: calc(100vh - 256px);
+    }
     .lg\:h-full {
       height: 100%;
     }
