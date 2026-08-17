@@ -1954,6 +1954,9 @@
     .lg\:h-\[calc\(100vh-60px-128px\+40px\)\] {
       height: calc(100vh - 60px - 128px + 40px);
     }
+    .lg\:h-\[calc\(100vh-60px-128pxpx\)\] {
+      height: calc(100vh - 60px - 128pxpx);
+    }
     .lg\:h-\[calc\(100vh-60px-256p\)\] {
       height: calc(100vh - 60px - 256p);
     }
@@ -2031,6 +2034,18 @@
     }
     .lg\:pr-16 {
       padding-right: calc(var(--spacing) * 16);
+    }
+    .lg\:pb-12 {
+      padding-bottom: calc(var(--spacing) * 12);
+    }
+    .lg\:pb-14 {
+      padding-bottom: calc(var(--spacing) * 14);
+    }
+    .lg\:pb-16 {
+      padding-bottom: calc(var(--spacing) * 16);
+    }
+    .lg\:pb-32 {
+      padding-bottom: calc(var(--spacing) * 32);
     }
     .lg\:pl-16 {
       padding-left: calc(var(--spacing) * 16);
