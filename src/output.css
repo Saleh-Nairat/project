@@ -1942,6 +1942,9 @@
     .lg\:w-\[70\%\] {
       width: 70%;
     }
+    .lg\:w-full {
+      width: 100%;
+    }
     .lg\:grid-cols-2 {
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
