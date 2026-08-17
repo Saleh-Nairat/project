@@ -1924,11 +1924,35 @@
     .lg\:h-\[calc\(100vh-\)\] {
       height: calc(100vh - );
     }
+    .lg\:h-\[calc\(100vh--128px\)\] {
+      height: calc(100vh - -128px);
+    }
     .lg\:h-\[calc\(100vh-18\)\] {
       height: calc(100vh - 18);
     }
     .lg\:h-\[calc\(100vh-60px\)\] {
       height: calc(100vh - 60px);
+    }
+    .lg\:h-\[calc\(100vh-60px-\)\] {
+      height: calc(100vh - 60px - );
+    }
+    .lg\:h-\[calc\(100vh-60px-128px\)\] {
+      height: calc(100vh - 60px - 128px);
+    }
+    .lg\:h-\[calc\(100vh-60px-128px\+\)\] {
+      height: calc(100vh - 60px - 128px + );
+    }
+    .lg\:h-\[calc\(100vh-60px-128px\+20px\)\] {
+      height: calc(100vh - 60px - 128px + 20px);
+    }
+    .lg\:h-\[calc\(100vh-60px-128px\+30px\)\] {
+      height: calc(100vh - 60px - 128px + 30px);
+    }
+    .lg\:h-\[calc\(100vh-60px-128px\+35px\)\] {
+      height: calc(100vh - 60px - 128px + 35px);
+    }
+    .lg\:h-\[calc\(100vh-60px-128px\+40px\)\] {
+      height: calc(100vh - 60px - 128px + 40px);
     }
     .lg\:h-\[calc\(100vh-60px-256p\)\] {
       height: calc(100vh - 60px - 256p);
@@ -1938,6 +1962,9 @@
     }
     .lg\:h-\[calc\(100vh-120px\)\] {
       height: calc(100vh - 120px);
+    }
+    .lg\:h-\[calc\(100vh-128px\)\] {
+      height: calc(100vh - 128px);
     }
     .lg\:h-\[calc\(100vh-130px\)\] {
       height: calc(100vh - 130px);
